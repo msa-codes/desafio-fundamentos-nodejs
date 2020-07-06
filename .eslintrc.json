@@ -22,6 +22,9 @@
   "plugins": ["@typescript-eslint", "prettier"],
   "rules": {
     "prettier/prettier": "error",
+    "@typescript-eslint/no-explicit-any": "off",
+    "array-callback-return": "off",
+    "class-methods-use-this": "off",
     "import/extensions": [
       "error",
       "ignorePackages",
